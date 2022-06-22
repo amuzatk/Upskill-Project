@@ -1,0 +1,64 @@
+.tim {
+  width: 175px;
+  height: 24px;
+  margin: 25px;
+  margin-left: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.timing {
+  margin-left: 40px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.signal {
+  margin-right: 10px;
+}
+
+.wifi {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .items {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .items {
+    margin-left: 320px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .items {
+    margin-left: 460px;
+  }
+
+  .tim {
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .items {
+    margin-left: 890px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tim {
+    display: none;
+  }
+}

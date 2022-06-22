@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+  .forms {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+  }
+
+  .search-container {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+  }
+
+  .dropdown:empty {
+    border: none;
+  }
+
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+  }
+
+  input {
+    width: 220px;
+    height: 50px;
+  }
+
+  button {
+    margin-left: 20px;
+    background-color: #3e0563;
+    color: white;
+  }
+
+  .search-inner {
+    display: flex;
+  }
+}

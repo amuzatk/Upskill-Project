@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import "./App.css";
+// import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Categories from "./components/pages/Categories/Categories";
 import SignUp from "./components/pages/SignUp/SignUp";
@@ -11,10 +11,13 @@ import FutureEditions from "./components/pages/FutureEditions/FutureEditions";
 import PastEditions from "./components/pages/PastEditions/PastEditions";
 import About from "./components/pages/AboutUs/About";
 import ErrorPage from "./components/ErrorPage";
+import Timer from "./components/Timer/Timer";
+import VotingCate from "./components/pages/VotingCat/VotingCate";
 
 function App() {
   return (
     <Router>
+      <Timer />
       <NavBar />
       <Routes>
         <Route path="/" element={<Categories />} />
@@ -25,6 +28,7 @@ function App() {
         <Route path="/donations" element={<Donations />} />
         <Route path="/future-editions" element={<FutureEditions />} />
         <Route path="/past-editions" element={<PastEditions />} />
+        <Route path="/voting-cat" element={<VotingCate />} />
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </Router>
