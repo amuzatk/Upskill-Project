@@ -23,7 +23,7 @@ export default function App() {
             type="text"
             value={value}
             onChange={onChange}
-            placeholder="Nominees's Name"
+            placeholder="Nominees's Name, Nominees's Category"
           />
           <button onClick={() => onSearch(value)}> Search </button>
         </div>

@@ -10,18 +10,15 @@ import Grp1 from "../../assets/images/grp1.png";
 import Grp21 from "../../assets/logos/Group 21.png";
 import Card from "../../Cards/Card";
 import Ribbo1 from "../../assets/logos/ribbon-1.png";
+import Desk2 from "../../assets/logos/Desktop-2.png";
 import Vect2 from "../../assets/logos/Vector2.png";
 import frame43 from "../../assets/logos/Frame43.png";
 
 export default function Categories() {
   return (
     <>
-      <section>
-        <h1>
-          First Ever Tech <br /> Personality <br /> Awards For <br /> Africans
-          in <br />
-          Europe
-        </h1>
+      <section className="sec-1">
+        <h1>First Ever Tech Personality Award For Africans in Europe</h1>
         <div>
           <SearchForm />
         </div>
@@ -34,6 +31,10 @@ export default function Categories() {
       <section className="sect-2">
         <div>
           <img src={frame65} alt="logo" className="f65" />
+        </div>
+
+        <div>
+          <img src={Desk2} alt="logo" className="desktop-2" />
         </div>
 
         <div>
